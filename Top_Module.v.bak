@@ -1,0 +1,62 @@
+module top_module (
+    input [15:0] Switches
+);
+    
+    wire [18:1] c;/*c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18;*/
+    wire [15:0] instruction;
+
+    code_memory CodeMem (
+        .clk(Switches[0]), 
+        .c1(c[1]), 
+        .read_addr(pc_out), 
+        .write_addr(Data_address), 
+        .write_data(Switches), 
+        .instruction(instruction)
+    );
+
+    wire [7:0] high_instruction,low_instruction,;
+    assign high_instruction = instruction[15:8];
+    assign low_instruction = instruction[7:0];
+
+    wire [0:26] opcode_decoded;
+    opcode_decoder #(8) OpcodeDec (
+        .In(high_instruction), 
+        .out(opcode_decoded)
+    );
+
+    wire ZF,NF,OF, CARRY;
+    control_unit ControlUnit ( 
+        .opcode(opcode_decoded),
+        .ZF(ZF),
+        .NF(NF),
+        .OF(OF), 
+        .control_signals(c[1:18])
+    );
+
+    reg [5:0] pc_out;
+    wire [5:0] next_pc;
+    PC_update_logic PCUpdateLogic (
+        .current_pc(pc_out),
+        .offset(low_instruction[5:0]),
+        .c2(c[2]),
+        .next_pc(next_pc)
+    );
+
+    program_counter ProgramCounter (
+        .clk(Switches[0]),
+        .reset(Switches[1]),
+        .c3(c[3]),
+        .next_pc(next_pc),
+        .pc_out(pc_out)
+    );
+
+    Datapath Datapath (
+        .clk(Switches[0]),
+        .control_signals(c[4:18]),
+        .in(low_instruction),
+        .out(Data_address),
+        .flags({OF,NF,ZF,CARRY})
+    );  
+
+
+endmodule

@@ -1,0 +1,53 @@
+`timescale 1ns/1ps
+
+module tb_top_module;
+
+    reg  [15:0] Switches;
+    wire [15:0] instruction;
+    wire [5:0]  pc;
+    wire [5:0]  data_addr;
+    wire [3:0]  flags;
+
+    // ---------- Instantiate DUT ----------
+    top_module DUT (
+        .Switches(Switches)
+    );
+
+    // Assign internal signals for monitoring
+    assign instruction = DUT.instruction;
+    assign pc          = DUT.pc_out;
+    assign data_addr   = DUT.Data_address;
+    assign flags       = DUT.flags;
+
+    // ---------- Clock generation ----------
+    always #5 Switches[0] = ~Switches[0];   // 100 MHz clock
+
+    // ---------- Test sequence ----------
+    initial begin
+        // Init
+        Switches = 16'b0;
+        Switches[0] = 0;   // clk
+        Switches[1] = 1;   // reset
+
+        // Reset pulse
+        #20;
+        Switches[1] = 0;
+
+        // Run for enough cycles to finish Bubble Sort
+        // Program uses loops → run 300–500 cycles
+        repeat (400) begin
+            @(posedge Switches[0]);
+            $display("PC=%0d  Instr=%h  DataAddr=%0d  Flags=%b",
+                     pc, instruction, data_addr, flags);
+        end
+
+        $finish;
+    end
+
+    // ---------- Optional: VCD waveform ----------
+    initial begin
+        $dumpfile("cpu_bubblesort.vcd");
+        $dumpvars(0, tb_top_module);
+    end
+
+endmodule

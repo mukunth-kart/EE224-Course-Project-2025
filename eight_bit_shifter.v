@@ -4,14 +4,15 @@ module eight_bit_shifter (
     output reg [7:0] OUT,
     output reg SHIFT_OUT
 );
-    if(notL_R) begin
-        // Logical Right Shift
-        OUT = {1'b0, IN[7:1]};
-        SHIFT_OUT = IN[0];
-    end
-    else begin
-        // Logical Left Shift
-        OUT = {IN[6:0], 1'b0};
-        SHIFT_OUT = IN[7];
-    end
+	 always@(*) begin
+		 if(notL_R) begin
+			  // Logical Right Shift
+			  OUT = {1'b0, IN[7:1]};
+			  SHIFT_OUT = IN[0];
+		 end else begin
+			  // Logical Left Shift
+			  OUT = {IN[6:0], 1'b0};
+			  SHIFT_OUT = IN[7];
+		 end
+	 end
 endmodule

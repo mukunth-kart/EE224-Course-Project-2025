@@ -1,0 +1,189 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do top_module_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Top_Module.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:16 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Top_Module.v 
+# -- Compiling module top_module
+# 
+# Top level modules:
+# 	top_module
+# End time: 21:20:16 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Register_Select.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:16 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Register_Select.v 
+# -- Compiling module Register_Select
+# 
+# Top level modules:
+# 	Register_Select
+# End time: 21:20:16 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Registers.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:16 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Registers.v 
+# -- Compiling module Registers
+# 
+# Top level modules:
+# 	Registers
+# End time: 21:20:16 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_write_enable.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:16 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_write_enable.v 
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# End time: 21:20:16 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_update_logic.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:16 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_update_logic.v 
+# -- Compiling module pc_update_logic
+# 
+# Top level modules:
+# 	pc_update_logic
+# End time: 21:20:16 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Parallel_Access_Shift_Register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:16 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Parallel_Access_Shift_Register.v 
+# -- Compiling module PASR
+# 
+# Top level modules:
+# 	PASR
+# End time: 21:20:16 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/opcode_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:16 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/opcode_decoder.v 
+# -- Compiling module dec2to4
+# -- Compiling module dec4to16
+# -- Compiling module opcode_decoder
+# 
+# Top level modules:
+# 	opcode_decoder
+# End time: 21:20:16 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flag_Calculator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:16 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flag_Calculator.v 
+# -- Compiling module FLAG_CALC
+# 
+# Top level modules:
+# 	FLAG_CALC
+# End time: 21:20:16 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flags.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:17 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flags.v 
+# -- Compiling module Flags
+# 
+# Top level modules:
+# 	Flags
+# End time: 21:20:17 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_shifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:17 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_shifter.v 
+# -- Compiling module eight_bit_shifter
+# 
+# Top level modules:
+# 	eight_bit_shifter
+# End time: 21:20:17 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:17 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_adder.v 
+# -- Compiling module eight_bit_adder
+# 
+# Top level modules:
+# 	eight_bit_adder
+# End time: 21:20:17 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:17 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 21:20:17 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/DataMemory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:18 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/DataMemory.v 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 21:20:18 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/control_final.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:18 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/control_final.v 
+# -- Compiling module control_block
+# 
+# Top level modules:
+# 	control_block
+# End time: 21:20:18 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/code_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:18 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/code_memory.v 
+# -- Compiling module code_memory
+# 
+# Top level modules:
+# 	code_memory
+# End time: 21:20:18 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:18 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 21:20:18 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/tb_top_module.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:18 on Nov 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025" D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/tb_top_module.v 
+# -- Compiling module tb_top_module
+# ** Error: D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/tb_top_module.v(72): (vlog-2730) Undefined variable: 'program_mem'.
+# ** Error: D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/tb_top_module.v(114): 'Formal' must not be declared to be an array: program_mem.
+# End time: 21:20:18 on Nov 21,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./top_module_run_msim_rtl_verilog.do line 25
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+D:/SEM3\ Done/EE\ 224/Projects/i281\ CPU/EE224-Course-Project-2025 {D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-..."

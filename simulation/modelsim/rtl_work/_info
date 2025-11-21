@@ -1,0 +1,414 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/simulation/modelsim
+vALU
+Z1 !s110 1763740218
+!i10b 1
+!s100 mDLMZkAMF]4MW`ThO80nT1
+I38;^>@b`=B_`i82CDThHK0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1763736119
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/ALU.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/ALU.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1763740218.000000
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/ALU.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025}
+Z7 tCvgOpt 0
+n@a@l@u
+vcode_memory
+R1
+!i10b 1
+!s100 `J6:LJ6hFDlVH>IHNG`7V3
+IKVUa1dYRRHW>HMmQ=4?Lj0
+R2
+R0
+w1763737042
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/code_memory.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/code_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/code_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/code_memory.v|
+!i113 1
+R5
+R6
+R7
+vcontrol_block
+R1
+!i10b 1
+!s100 >GlnI<I74bK0g<^gJJOP`1
+Ie;68P=jic[RXeXm6JW`Q?3
+R2
+R0
+Z8 w1763722681
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/control_final.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/control_final.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/control_final.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/control_final.v|
+!i113 1
+R5
+R6
+R7
+vDataMemory
+R1
+!i10b 1
+!s100 ARC7;o2_cbXk@60XmN@9a2
+IEHJGA8og7kgH80lo@Cghk0
+R2
+R0
+w1763733747
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/DataMemory.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/DataMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/DataMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/DataMemory.v|
+!i113 1
+R5
+R6
+R7
+n@data@memory
+vDatapath
+Z9 !s110 1763740217
+!i10b 1
+!s100 CDjF9MNmQIW7GMfW7R_9G3
+I9nm[Id4eS4C@T32?K[z:k3
+R2
+R0
+w1763733348
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Datapath.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1763740217.000000
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Datapath.v|
+!i113 1
+R5
+R6
+R7
+n@datapath
+vdec2to4
+Z11 !s110 1763740216
+!i10b 1
+!s100 <NRMRGiV^XY3_lk?UV<_D0
+I<_;cGI1^JUef`3=84J;UK0
+R2
+R0
+Z12 w1763735558
+Z13 8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/opcode_decoder.v
+Z14 FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/opcode_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z15 !s108 1763740216.000000
+Z16 !s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/opcode_decoder.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/opcode_decoder.v|
+!i113 1
+R5
+R6
+R7
+vdec4to16
+R11
+!i10b 1
+!s100 4?Y1f:?[DMOFe]6Z;3;?S0
+ITbBNBSzTGQeCh6HIP>YXg1
+R2
+R0
+R12
+R13
+R14
+L0 20
+R3
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R5
+R6
+R7
+veight_bit_adder
+R9
+!i10b 1
+!s100 mlJOS<6=o<TFAilGzLaPT2
+If;<jOJJ>dkPN?A>?kK@FA2
+R2
+R0
+R8
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_adder.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_adder.v|
+!i113 1
+R5
+R6
+R7
+veight_bit_shifter
+R9
+!i10b 1
+!s100 An2Kg7[cG7ZeTc1gc=[@h3
+IneK[QGKLK=4oJ8`K9cL]<1
+R2
+R0
+w1763731946
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_shifter.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/eight_bit_shifter.v|
+!i113 1
+R5
+R6
+R7
+vFLAG_CALC
+R11
+!i10b 1
+!s100 N3ST1gEPaRLL3N7lLJTD70
+Ia@Ego<O7k[8eOX8`dcFKS3
+R2
+R0
+R8
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flag_Calculator.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flag_Calculator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flag_Calculator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flag_Calculator.v|
+!i113 1
+R5
+R6
+R7
+n@f@l@a@g_@c@a@l@c
+vFlags
+R9
+!i10b 1
+!s100 ^NZi6BMcA^=Qo`]9fVbi43
+InYhdPaBjCT>>oP=Gh@Cz31
+R2
+R0
+w1763731825
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flags.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flags.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flags.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Flags.v|
+!i113 1
+R5
+R6
+R7
+n@flags
+vopcode_decoder
+R11
+!i10b 1
+!s100 IadOIhCh_h[Q^OnBORV4`0
+I2lz<19E^o]L3UZ:U4R[Yc0
+R2
+R0
+R12
+R13
+R14
+L0 34
+R3
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R5
+R6
+R7
+vPASR
+R11
+!i10b 1
+!s100 8:FC_V02OHGHckc7Y7HIR0
+IHNSdgKRQTkWega>cWS9kL0
+R2
+R0
+w1763732526
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Parallel_Access_Shift_Register.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Parallel_Access_Shift_Register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Parallel_Access_Shift_Register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Parallel_Access_Shift_Register.v|
+!i113 1
+R5
+R6
+R7
+n@p@a@s@r
+vpc_update_logic
+R11
+!i10b 1
+!s100 eAQ3Kgd8CUiz_Z8OhXUZj3
+I^:EL3>oL@1a`inkB6T:>Y3
+R2
+R0
+w1763670662
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_update_logic.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_update_logic.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_update_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_update_logic.v|
+!i113 1
+R5
+R6
+R7
+vprogram_counter
+R11
+!i10b 1
+!s100 GQe[OA2E4m8VTBKMSnEmL1
+I?GUBhWcPLcIKPeR4lc_KM2
+R2
+R0
+w1763735609
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_write_enable.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_write_enable.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_write_enable.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/pc_write_enable.v|
+!i113 1
+R5
+R6
+R7
+vRegister_Select
+R11
+!i10b 1
+!s100 GZlQ@]3enhKa1@LEN=?VL1
+ICC1h?iRla`>4j3=V2Rz<F1
+R2
+R0
+R8
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Register_Select.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Register_Select.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Register_Select.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Register_Select.v|
+!i113 1
+R5
+R6
+R7
+n@register_@select
+vRegisters
+R11
+!i10b 1
+!s100 LGLMB?8mkUWmD=Ah20dOl0
+IemfDOW]^=9P9Z<6`WVGzE0
+R2
+R0
+w1763735115
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Registers.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Registers.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Registers.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Registers.v|
+!i113 1
+R5
+R6
+R7
+n@registers
+vtop_module
+R11
+!i10b 1
+!s100 M75>a=B5@:bh1fIbI^Knc3
+IYWkiRWF6<z2H@lTDdfB^M1
+R2
+R0
+w1763736794
+8D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Top_Module.v
+FD:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Top_Module.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Top_Module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025|D:/SEM3 Done/EE 224/Projects/i281 CPU/EE224-Course-Project-2025/Top_Module.v|
+!i113 1
+R5
+R6
+R7

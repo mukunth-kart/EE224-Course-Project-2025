@@ -16,7 +16,7 @@ module Flags (
             Zero_Flag <= zero;
             Negative_Flag <= negative;
             Overflow_Flag <= overflow;
-        else
+        end else begin
             Carry_Flag <= Carry_Flag;
             Zero_Flag <= Zero_Flag;
             Negative_Flag <= Negative_Flag;

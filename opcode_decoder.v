@@ -31,19 +31,19 @@ endmodule
 
 
 
-module opcode_decoder #(parameter n=8)(In,out)
+module opcode_decoder #(parameter n=8)(
+	 input [n-1:0] In,
+	 output [0:26] out);
     
-    input [n-1:0] In;
-    output[0:26] out;
     wire [0:15] A;
     wire [0:3]  B;
     wire [0:3]  C;
     wire [0:1]  D;
     dec4to16 Dec6 (In[7:4],A,1'b1);
-    dec2to4  Dec7 (In[9:8],B,A[1]);
-    dec2to4  Dec8 (In[9:8],C,A[15]);
+    dec2to4  Dec7 (In[1:0],B,A[1]);
+    dec2to4  Dec8 (In[1:0],C,A[15]);
 
-    assign D = (A[12] == 0) ? 2'b00 : 2'b01;
+	 assign D = (A[12] == 0) ? 2'b00 :(In[0]== 0)? 2'b10:2'b01 ;
 
     assign out[0]     = A[0];
     assign out[1:4]   = B;
@@ -51,10 +51,10 @@ module opcode_decoder #(parameter n=8)(In,out)
     assign out[15:16] = D;
     assign out[17:18] = A[13:14];
     assign out[19:22] = C;
-    assign out[23] =In[11];
-    assign out[24] =In[10];
-    assign out[25] =In[9];
-    assign out[26] =In[8];
+    assign out[23] =In[3];
+    assign out[24] =In[2];
+    assign out[25] =In[1];
+    assign out[26] =In[0];
 
 
 endmodule

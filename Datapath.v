@@ -1,14 +1,18 @@
 module Datapath (
     input wire c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,
     input wire clk,
+	 input wire [15:0] switches,
     input wire [7:0] in,
     output wire [3:0] flags,
     output wire [5:0] out
 );
     wire [7:0] A_wire, B_wire;
     wire [3:0] flags_internal;
+	 wire [7:0] out_internal;
+	 wire [7:0] Data_In, Data_Out;
 
-
+	 wire [7:0] Data_Address;
+	 wire [3:0] Data_Address_In;
     Registers regs_inst (
         .c4(c4),
         .c5(c5),
@@ -35,17 +39,23 @@ module Datapath (
         .ZERO(flags_internal[2]),
         .NEGATIVE(flags_internal[3])
     );
-    Flags_Register flags_reg_inst (
+    Flags flags_reg_inst (
         .clk(clk),
         .Write_Enable(c14),
-        .flags_in(flags_internal),
-        .flags_out(flags)
+        .carry(flags_internal[0]),
+		  .zero(flags_internal[1]),
+		  .negative(flags_internal[2]),
+		  .overflow(flags_internal[3]),
+        .Carry_Flag(flags[0]),
+		  .Zero_Flag(flags[1]),
+		  .Negative_Flag(flags[2]),
+		  .Overflow_Flag(flags[3])
     );
 
-    Data_Address = (c15) ? in : ALU_result;
-    Data_Address_In = Data_Address[3:0];
+    assign Data_Address = (c15) ? in : ALU_result;
+    assign Data_Address_In = Data_Address[3:0];
 
-    Data_In = (c16) ? switches[7:0] : B_wire;
+    assign Data_In = (c16) ? switches[7:0] : B_wire;
     DataMemory data_mem_inst (
         .Write_Enable(c17),
         .Write_Address(Data_Address_In),
